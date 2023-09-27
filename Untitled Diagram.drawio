@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T09:03:54.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="aiSUZC2pon4njFhS7Tl-" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T09:06:00.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="YMKMd7oIBynYPk2rSktd" version="21.8.2" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="1696" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -142,8 +142,8 @@
             <mxPoint x="630" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40U8Hyy1MQshFt_wqeuv-104" value="1 Send boot image to bpmp bootrom&#xa;2 Bootrom will store boot image to dram&#xa;3 Boot boot image" style="shape=note;align=left" vertex="1" parent="1">
-          <mxGeometry x="380" y="435" width="230" height="65" as="geometry" />
+        <mxCell id="40U8Hyy1MQshFt_wqeuv-104" value="1 Send boot image to bpmp bootrom&#xa;2 Bootrom will store boot image to dram&#xa;3 Boot boot image &amp; run ramdisk &#xa;4 ramdisk only care adb work normal(pinctrol &amp;&#xa;   usb controller &amp; adb config)" style="shape=note;align=left" vertex="1" parent="1">
+          <mxGeometry x="369" y="435" width="231" height="95" as="geometry" />
         </mxCell>
         <mxCell id="40U8Hyy1MQshFt_wqeuv-105" value="" style="edgeStyle=none;endArrow=none;dashed=1" edge="1" parent="1">
           <mxGeometry x="272.3350694444445" y="165" width="100" height="100" as="geometry">
@@ -154,8 +154,8 @@
         <mxCell id="40U8Hyy1MQshFt_wqeuv-106" value="" style="fillColor=#CC4125;strokeColor=#660000" vertex="1" parent="1">
           <mxGeometry x="341" y="576.3942901234568" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="40U8Hyy1MQshFt_wqeuv-107" value="1 Send boot image to bpmp bootrom&#xa;2 Bootrom will store boot image to dram&#xa;3 Boot boot image" style="shape=note;align=left" vertex="1" parent="1">
-          <mxGeometry x="373" y="576.39" width="230" height="65" as="geometry" />
+        <mxCell id="40U8Hyy1MQshFt_wqeuv-107" value=" d&#xa;" style="shape=note;align=left" vertex="1" parent="1">
+          <mxGeometry x="362" y="574.39" width="267" height="103.61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
